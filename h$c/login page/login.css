@@ -1,0 +1,111 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+     
+    width: 100%;
+    
+}
+.link img {
+    
+    height: 10vh;
+    width: 200px;
+    padding: 10px;   
+border-radius: 30px;
+margin-bottom: 30px;
+margin-left: 60px;
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+.main { 
+margin: auto;
+width: 100%;
+height: auto;
+align-items: center;
+padding-left: 50px;
+
+}
+#email {
+
+display: block;
+margin-bottom: 10px;
+font-size: 18px;
+width: 100%;
+border: 2px;
+height: 2rem;
+border-bottom: 2px solid whitesmoke;
+background: transparent;
+color: white;
+
+}
+    
+
+
+#password {
+
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 100%;
+    border: 2px;
+     height: 2rem;
+     border-bottom: 2px solid whitesmoke;
+background: transparent;
+
+color: white;
+}
+
+
+
+form {
+    width: 50%;
+}
+
+.submit {
+
+outline: none;
+width: 100%;
+background-color: whitesmoke;
+color: navy;
+border-radius: 20px;
+padding: 8px 0px;
+font-size: 16px;
+font-weight: bold;
+transition: all .5s;
+margin: 10px;
+margin-top: 30px;
+}
+ 
+    .end {
+        align-items: center;
+        padding-left: 400px;
+    }
+.submit:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.scale:hover {
+    transform: scale(2.2);
+
+}
+a {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+
+body {
+    background: url('./images\ \(12\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
